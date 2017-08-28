@@ -8,8 +8,18 @@ function TriangleLargestSide( a, b, c ) {
 }
 function checkIfRectangleIsSquare( width, height ) {
 	/* vérifie si rectangle est carré */
-	return;
+	// var reponse;
+	// if (width === height){
+	// 	reponse = true;
+	// } else{
+	// 	 reponse = false;
+	// }
+	// return reponse;
+	//ou bien version beaucoup plus light
+	return width === height;
 }
+
+
 function checkIfHrefStartsWithHash( string ) {
 	/* vérifie si le lien commence par hash (#) */
 	return;
